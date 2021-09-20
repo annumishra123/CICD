@@ -7,7 +7,7 @@ const Developers = ({ history,AllProducts,getCartItem }) => {
  
   useEffect(() => {
     getCartItem()
- },[]);
+ },[getCartItem]);
 
   
 
